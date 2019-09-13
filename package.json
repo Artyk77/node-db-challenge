@@ -1,0 +1,28 @@
+{
+  "name": "node-db-challenge",
+  "version": "1.0.0",
+  "description": "Sprint",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artyk77/node-db-challenge.git"
+  },
+  "author": "Jose Restrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artyk77/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/Artyk77/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "knex": "^0.19.4",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
